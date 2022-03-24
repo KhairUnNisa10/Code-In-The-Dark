@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.nav{padding: 20px 100px;}
+		.nav .main-nav{
+			display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+		.nav .main-nav .search {
+			display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+
+    align-items: center;
+    /*border: 1px solid #ccc;*/
+    /*width: 11%;*/
+    padding: 5px 20px;
+    margin: 0 20px;
+		}
+
+		.nav .main-nav .search input{border: none;outline: none;}
+		.nav .main-nav nav ul{
+			list-style: none;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+		}
+
+		.nav .main-nav nav ul li a{
+			text-decoration: none;
+			margin: 0 10px;
+			color: #2b2b2b;
+			font-family: 'Montserrat', sans-serif;
+		}
+		.nav .main-nav .btn{
+			outline: none;
+		    border: none;
+		    background: transparent;
+		   /* border: 1px solid #ccc;*/
+		    padding: 18px 40px;
+		    font-size: 18px;
+		    margin-left: 30px;
+		}
+		.nav .main-nav .btn2{
+			color: #ffffff;
+    background: #0910c7;
+		}
+		.left-nav, .buttons{
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+		}
+
+		.card-sec{
+			display: flex;
+			flex-direction: row;
+		}
+
+		.card-sec .middle-sec{
+
+		}
+
+		.card-sec .right-sec, .left-sec{
+			padding: 50px;
+
+		}
+
+		.card-sec .box{
+			font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding: 16px 70px;
+    /* border: 1px solid #ccc; */
+    margin: 30px 0;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px -2px #ccc;
+			
+		}
+
+		.card-sec .box2{
+			font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding: 16px 30px;
+    /* border: 1px solid #ccc; */
+    margin: 30px 0;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px -2px #ccc;
+			
+		}
+
+		.card-sec .right-sec .box1{
+			background-color: grey;
+			color: #ffffff;
+		}
+
+		.mid-content{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+			padding: 0 50px;
+			margin-top: -20px;
+		}
+
+		.mid-content .mid-button{
+			display: flex;
+			flex-direction: column;
+		}
+
+		.mid-content .mid-button button{
+				outline: none;
+    border: none;
+    color: #ffffff;
+    background: #0910c7;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding: 15px 50px;
+    margin: 10px 0;
+		}
+	</style>
+</head>
+<body>
+<div class="nav">
+		<div class="main-nav">
+			<div class="left-nav">
+			<img src="#" alt="LOGO" >
+			<div class="search">
+				<input type="text" placeholder="Search.....">
+				<img src="1024px-Search_Icon.svg.png" alt="Search Logo" height="30px" style="margin-right: 20px">
+			
+			</div>
+		</div>
+			<div class="buttons">
+			<nav>
+				<ul>
+					<li><a href="#">Team</a></li>
+					<li><a href="#">Gallery</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#" style="margin-left: 180px;">Change</a></li>
+					<li><a href="#"><img src="flags.png" width="50px"></a></li>
+
+					<li><a href="#"><img src="world.png" width="40px" style="margin-left: 50px;"></a></li>
+					<li><a href="#" style="margin-left: 0px;">Help</a></li>
+				</ul>
+			</nav>
+			
+			<button class="btn btn1">Login</button>
+			<button class="btn btn2">Signup</button>
+			</div>
+		</div>
+		
+		<section class="card-sec">
+			<div class="left-sec">
+				<div class="box box2">
+					<h3>Range Filter</h3>
+					<progress value="50" max="100">
+				</div>
+				<div class="box2">
+					<h3>Filter:</h3>
+					<input type="checkbox">
+					<label>Lorem Ipsum</label><br>
+					<br>
+					<input type="checkbox">
+					<label>Lorem Ipsum</label><br><br>
+					<input type="checkbox">
+					<label>Lorem Ipsum</label><br><br>
+					<input type="checkbox">
+					<label>Lorem Ipsum</label><br><br>
+					<input type="checkbox">
+					<label>Lorem Ipsum</label><br><br>
+				</div>
+				
+			</div>
+			<div class="middle-sec">
+				<img src="photo-1565374395542-0ce18882c857.jpg" alt="Sofa Set" height="500px" style="padding: 50px;">
+				<div class="mid-content">
+					<p style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br>
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br>
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo<br>
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse<br>
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non<br>
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<div class="mid-button">
+						<button>Lorem</button>
+						<button>Lorem</button>
+					</div>
+					
+				</div>
+				
+			</div>
+			<div class="right-sec">
+				<div class="box box1">Lorem Ipsum</div>
+				<div class="box">Lorem Ipsum</div>
+				<div class="box">Lorem Ipsum</div>
+				<div class="box">Lorem Ipsum</div>
+				<div class="box">Lorem Ipsum</div>
+				<div class="box">Lorem Ipsum</div>
+			</div>
+
+		</section>
+
+
+	</div>
+</body>
+</html>
