@@ -1,0 +1,365 @@
+body, h1, h2, h3, h4, h5, h6, p, button{
+			margin: 0;
+			font-family: 'Montserrat', sans-serif;
+		}
+
+		.main-sec{
+			background: #020438;
+			padding: 100px 0;
+		}
+
+		.container{
+			max-width: 1500px;
+			margin: auto;
+		}
+
+		.main-sec .container .content-top{
+			text-align: center;
+		}
+
+		.main-sec .container .content-top p{
+			color: #ffffff;
+			font-weight: 300;
+			font-size: 14px;
+			margin-bottom: 30px;
+		}
+
+		.main-sec .container .content-top .button1 .btn{
+			outline: none;
+			border: none;
+			padding: 15px 35px;
+			border-radius: 60px;
+			margin: 30px 20px;
+			color: #ffffff;
+			transition: 0.5s;
+		}
+
+		.main-sec .container .content-top .button1 .btn1{
+			background: #0910c7;
+		}
+
+		.main-sec .container .content-top .button1 .btn1:hover{
+			background: transparent;
+		}
+
+		.main-sec .container .content-top .button1 .btn2{
+			background: transparent;
+		}
+
+		.main-sec .container .content-top .button1 .btn2:hover{
+			background: #0910c7;
+		}
+
+		.main-sec .container .content-top .button2 .btn3{
+			outline: none;
+			border: none;
+			padding: 10px 70px;
+			margin: 30px 0px 30px 260px;
+			color: #ffffff;
+			transition: 0.5s;
+			background-color: #0fb70f;
+		}
+
+		.main-sec .container .cards{
+			display: flex;
+			flex-direction: row;
+			color: #ffffff;
+			justify-content: center;
+		}
+
+		.main-sec .container .card{
+			width: 350px;
+			margin: 20px;
+			background-color: #000000;
+			padding: 40px;
+			text-align: left;
+			
+		}
+
+		.main-sec .container .card h2{
+			font-size: 30px;
+			font-weight: 400;
+		}
+
+		.main-sec .container .card h4{
+			font-size: 13px;
+			font-weight: 300;
+			margin: 10px 0 30px;
+		}
+
+		.main-sec .container .card ul{
+			list-style: none;
+			font-size: 15px;
+			font-weight: 300;
+			padding: 0;
+			margin: 0;
+		}
+
+		.main-sec .container .card ul li{
+			margin: 10px 0;
+		}
+
+		.main-sec .container .card .card-btn{
+			outline: none;
+			border: 1px solid #0910c7;
+			padding: 10px 80px;
+			margin: 0;
+			color: #ffffff;
+			transition: 0.5s;
+			background-color: #0910c7;
+			font-size: 15px;
+		}
+
+		.main-sec .container .card .card-btn:hover{
+			
+			border: 1px solid #0910c7;
+			background-color: transparent;
+			color: #0910c7;
+			
+		}
+
+		.main-sec .container .card .price h3{
+			margin: 30px 0;
+			font-weight: 600;
+			font-size: 30px;
+		}
+
+		.nav{
+			padding: 20px 100px;
+		}
+
+		.nav .main-nav{
+			display: flex;
+	   		flex-direction: row;
+	    	align-items: center;
+	    	justify-content: space-between;
+		}
+		.nav .main-nav .search {
+			display: flex;
+		    flex-direction: row-reverse;
+		    justify-content: center;
+
+		    align-items: center;
+		    /*border: 1px solid #ccc;*/
+		    /*width: 11%;*/
+		    padding: 5px 20px;
+		    margin: 0 20px;
+		}
+
+		.nav .main-nav .search input{border: none;outline: none;}
+		.nav .main-nav nav ul{
+			list-style: none;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+		}
+
+		.nav .main-nav nav ul li a{
+			text-decoration: none;
+			margin: 0 10px;
+			color: #2b2b2b;
+			font-family: 'Montserrat', sans-serif;
+		}
+		.nav .main-nav .btn{
+			outline: none;
+		    border: none;
+		    background: transparent;
+		   /* border: 1px solid #ccc;*/
+		    padding: 18px 40px;
+		    font-size: 18px;
+		    margin-left: 30px;
+		}
+		.nav .main-nav .btn2{
+			color: #ffffff;
+   			background: #0910c7;
+		}
+		.left-nav, .buttons{
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+		}
+
+		.page2-sec{
+			background-color: #f5f5f5;
+			padding: 100px 0;
+			
+		}
+
+		.page2-sec button{
+			color: #5a5a5a;
+		}
+
+		.page2-sec .sections {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+
+		.page2-sec .sections .sec1{
+			width: 10%;
+		}
+
+		.page2-sec .sections .sec1 .profile{
+			width: 150px;
+			height: 150px;
+			background-color: #f5f5f5; 
+			border: 5px solid #ffffff;
+		}
+
+		.page2-sec .sections .sec1 .name{
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			margin: 20px 0;
+			color: #5a5a5a;
+			font-size: 18px;
+		}
+
+		.page2-sec .sections .sec1 .name .tick{
+			height: 30px;
+			width: 30px;
+			border-radius: 100%;
+			background-color: #0fb70f;
+			margin-left: 20px;
+			
+		}
+
+		.page2-sec .sections .sec1 .name .tick img{
+			margin: 7px;
+		}
+
+		.page2-sec .sections .sec1 button{
+			outline: none;
+			border: none;
+			padding: 10px 40px;
+			color: #5a5a5a;
+			transition: 0.5s;
+			background-color: #ffffff;
+			font-size: 14px;
+
+		}
+
+		.page2-sec .sec2{
+			width: 63%;
+		}
+
+		.page2-sec .sec2 .active-img img{
+			width: 930px;
+			border: 5px solid #ffffff;
+		}
+
+		.page2-sec .sec2 .imgs{
+			display: flex;
+			flex-direction: row;
+			width: 100%;
+			justify-content: space-between;
+			margin: 30px 0;
+			
+		}
+
+		.page2-sec .sec2 .imgs img{
+			width: 200px;
+			height: 140px;
+			border: 5px solid #ffffff;
+		}
+
+		.page2-sec .sec2 .imgs .spe-img{
+			border: 5px solid #0fb70f;
+		}
+
+		.page2-sec .sec2 .sec2-bottom{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+			/*margin: 20px 0;*/
+		}
+
+		.page2-sec .sec2 .sec2-bottom .sec2-btn{
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+		}
+
+		.page2-sec .sec2 .sec2-bottom .sec2-btn button{
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-around;
+			outline: none;
+			border: none;
+			background-color: #ffffff;
+			height: 50px;
+			padding: 0 40px;
+			margin-right: 10px;
+		}
+
+		.page2-sec .sec2 .sec2-bottom .sec2-btn .spe-btn{
+			font-size: 12px;
+			height: 40px;
+		}
+
+		.page2-sec .sec2 .sec2-bottom .sec2-btn button img{
+			margin-right: 10px;
+		}
+
+		.page2-sec .sec2 .sec2-bottom .icons img{
+			height: 30px;
+			width: 30px;
+			border-radius: 100%; 
+			margin: 0 3px;
+		}
+
+		.page2-sec .sections .sec3{
+			background-color: #ffffff;
+			border-radius: 5px; 
+			width: 20%;
+			height: 350px;
+			padding: 30px;
+		}
+
+		.page2-sec .sections .sec3{
+			background-color: #ffffff;
+			border-radius: 5px; 
+			width: 18%;
+			height: 250px;
+			padding: 30px;
+			color: #5a5a5a;
+		} 
+
+		.page2-sec .sections .sec3 h3{
+			font-size: 30px;
+		}
+
+		.page2-sec .sections .sec3 .sec3-price{
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+		}
+
+
+		.page2-sec .sections .sec3 h4{
+			font-size: 20px;
+		}
+
+		.page2-sec .sections .sec3 p{
+			font-size: 14px;
+			margin-left: 10px;
+		}
+
+		.page2-sec .sections .sec3 button{
+			outline: none;
+			border: none;
+			padding: 10px 70px;
+			/*margin: ;*/
+			color: #ffffff;
+			transition: 0.5s;
+			background-color: #0fb70f;
+			margin-bottom: 10px;
+		}
+
+		.page2-sec .sections .sec3 input{
+			outline: none;
+			padding: 10px 11px;
+			margin: 20px 0;
+		}
