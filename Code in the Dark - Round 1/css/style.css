@@ -1,0 +1,116 @@
+body, h1, h2, p{
+			margin: 0;
+			font-family: 'Montserrat', sans-serif;
+		}
+		header{
+			background-color: #020438;
+			height: 100vh;
+			color: #ffffff;
+		    display: flex;
+		    flex-direction: column;
+		    justify-content: center;
+		    align-items: center;
+		    text-align: center;
+		}
+
+		header h1{
+			font-weight: lighter;
+			font-size: 70px;
+		}
+
+		header p{
+			font-size: 20px;
+			font-weight: lighter;
+			margin: 40px 0;
+		}
+
+		header .content {
+			width: 60%;
+		}
+
+		header .content form button{
+			outline: none;
+    border: none;
+    color: #ffffff;
+    background: #0910c7;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 15px 50px;
+    /*border: 1px solid #0910c7;*/
+		}
+
+		header .content form{
+			display: flex;
+			flex-direction: row;
+			padding: 0 100px;
+		}
+
+		header .content form input{
+			outline: none;
+    width: 100%;
+    background: transparent;
+    border: none;
+    border: 1px solid #ffffff;
+    padding: 0 30px;
+    font-size: 18px;
+		}
+
+		header .content .size-small{
+			font-size: 14px;
+			margin-top: 80px;
+		}
+
+		header .content .size-small .clr-blu{
+			color: #0910c7;
+		}
+		.nav{padding: 20px 100px;}
+		.nav .main-nav{
+			display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+		.nav .main-nav .search {
+			display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+
+    align-items: center;
+    /*border: 1px solid #ccc;*/
+    /*width: 11%;*/
+    padding: 5px 20px;
+    margin: 0 20px;
+		}
+
+		.nav .main-nav .search input{border: none;outline: none;}
+		.nav .main-nav nav ul{
+			list-style: none;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+		}
+
+		.nav .main-nav nav ul li a{
+			text-decoration: none;
+			margin: 0 10px;
+			color: #2b2b2b;
+			font-family: 'Montserrat', sans-serif;
+		}
+		.nav .main-nav .btn{
+			outline: none;
+		    border: none;
+		    background: transparent;
+		   /* border: 1px solid #ccc;*/
+		    padding: 18px 40px;
+		    font-size: 18px;
+		    margin-left: 30px;
+		}
+		.nav .main-nav .btn2{
+			color: #ffffff;
+    background: #0910c7;
+		}
+		.left-nav, .buttons{
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+		}
