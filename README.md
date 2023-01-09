@@ -3,7 +3,7 @@ I participated in Procom'22 by FAST
 ------------------------------------------------------------------------------
 Competition: Code in the Dark
 
-Round: 01
+Rounds: 02
 
 Time: 2 hours
 
